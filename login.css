@@ -1,0 +1,80 @@
+body, html {
+    padding: 50px;
+    margin: 40px;
+}
+
+
+body {
+
+    background-color: black;
+}
+
+#caja {
+
+    padding-top: 50px;
+    padding-bottom: 90px;
+    margin: 10px;
+
+    border: 5px dashed white;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    with: 50%;
+    
+}
+
+#caja h1 {
+
+    color: white;  
+    letter-spacing: 25px;
+    margin-left: 20px;
+}
+
+#caja font{
+
+    display: block;
+    color: white;
+    font-size: 30px;
+    
+    padding-top: 20px;
+
+    
+}
+
+
+#caja input {
+    
+    border: 2px solid white;
+    background-color: aqua;
+    border-radius: 10px;
+    
+    padding: 5px;
+    width: 40%;
+    margin-top: 20px;
+
+}
+
+#caja input:hover {
+    
+    background-color: rgb(166, 251, 251);   
+
+}
+
+#caja button {
+    background-color: #3498db; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#caja button:hover {
+    background-color: #2980b9; 
+}
